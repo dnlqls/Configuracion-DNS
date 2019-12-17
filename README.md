@@ -24,3 +24,5 @@ yy
 
 Como configurar un servidor DNS paso a paso.
 ## Ejemplo con doble almuhadilla
+
+[Ir a Actividad1](Actividad1.md)
