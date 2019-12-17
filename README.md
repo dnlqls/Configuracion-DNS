@@ -1,5 +1,5 @@
 # DNS
-Contenido disponible en: [9alexx3.github.io/aquí](https://9alexx3.github.io/Configuracion-DNS)
+Contenido disponible en: [9alexx3.github.io/](https://9alexx3.github.io/Configuracion-DNS)
 
 ejemplo de una
 prueba
@@ -12,10 +12,10 @@ yy
 ***lol***
 
 #Índice
-1.primero
-2.segundo
-3.tercero
-4.cuarto
+1. primero
+2. segundo
+3. tercero
+4. cuarto
 
 
 Como configurar un servidor DNS paso a paso.
