@@ -21,7 +21,6 @@ yy
 * Este esta dentro de la de arriba. 
 * Seguimos aquí.
 
-![Error en la foto](descarga.png)
 
 Como configurar un servidor DNS paso a paso.
 ## Ejemplo con doble almuhadilla
