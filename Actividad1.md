@@ -5,3 +5,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dolor erat, congue
 Aenean nec vulputate arcu. Ut hendrerit fermentum tempor. Curabitur in rhoncus ipsum, in ultrices nisl. Maecenas eleifend ex quis ex ultrices venenatis. Mauris imperdiet vehicula semper. In ligula lectus, maximus quis nisi ut, pretium posuere metus. Morbi ac mattis metus, nec tempus augue. Maecenas est ante, feugiat a egestas vel, gravida non diam. Aliquam nunc neque, aliquam ac lectus ut, rutrum semper arcu. Nam vel nisi id tortor cursus sollicitudin. Aliquam erat volutpat. Nullam gravida vestibulum volutpat. Duis elementum augue interdum nulla tristique, ac vulputate eros facilisis.
 
 Duis dapibus quis neque id auctor. In condimentum, eros sed luctus ultricies, nisi orci sodales lacus, et ultrices leo dui et augue. Nullam vitae tempus ipsum. Mauris lacus neque, dignissim et egestas et, ultricies id massa. Vivamus at nibh ut tortor ultricies venenatis in nec leo. Vivamus tempus, tortor nec venenatis imperdiet, nulla orci rhoncus velit, at auctor nibh turpis ac leo. Vivamus non libero at diam efficitur consectetur et in lorem. Etiam vel ultricies dolor, non venenatis sapien. Mauris semper, dolor quis aliquam interdum, ex urna elementum nulla, a rhoncus leo mi a eros.
+
+![Error en la foto](descarga.png)
+
+[Volver a página principal](README.md)
