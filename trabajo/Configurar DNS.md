@@ -16,9 +16,9 @@ Es sencillo, usando la herramienta que hemos instalado anteriormente llamada Bin
 
 
 # Seguir paso a paso las siguientes instrucciones:
-1. Primero tenemos que ir al archivo /etc/nsswitch.conf y ahí eliminaremos de la línea host: > 
+1. Primero tenemos que ir al archivo /etc/nsswitch.conf y ahí eliminaremos de la línea host: >blockquote
 
-2.
+2. Ahora, vamos a editar el fichero /etc/bind/named.conf.local y escribiremos nuestro nombre del domini
 3.
 4.
 5.
