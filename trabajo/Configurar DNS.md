@@ -20,8 +20,9 @@ Es sencillo, usando la herramienta que hemos instalado anteriormente llamada Bin
 ![Javi me pone un 10](../imagenes/nsswitch.png)
 2. Ahora, vamos a editar el fichero /etc/bind/named.conf.local y escribiremos nuestro nombre del domino
 ![Ahora se cabrea y me pone un 4](../imagenes/named.conf.local.png)
-3.
-4.
+3. Ahora vamos a copiar y configuar el archivo para las zonas directas
+![pero luego tiene compasión y me pone un 5](../imagenes/zona_directa.png)
+![me quede sin ideas](../imagenes/configuracion_directa.png)
 5.
 6.
 7.
