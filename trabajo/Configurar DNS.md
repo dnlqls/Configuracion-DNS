@@ -19,7 +19,7 @@ Es sencillo, usando la herramienta que hemos instalado anteriormente llamada Bin
 1. Primero tenemos que ir al archivo /etc/nsswitch.conf y ahí eliminaremos de la línea host: blockquote
 
 2. Ahora, vamos a editar el fichero /etc/bind/named.conf.local y escribiremos nuestro nombre del domino
-[Foto Imagen](../imagenes/named.conf.local.png)
+![Foto Imagen](../imagenes/named.conf.local.png)
 3.
 4.
 5.
