@@ -3,6 +3,7 @@
 Es sencillo, usando la herramienta que hemos instalado anteriormente llamada Bind9, procederemos a su configuración:
 
 **NOTAS:** 
+
 **NOTA1:** Antes de realizar los pasos, es necesario saber qué nombre le vamos a dar a nuestro servidor DNS (dominio) junto a los nombres ya definidos por ejemplo:
 * **IP y Nombres**
 * PC1 -> 192.168.18.1
