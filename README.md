@@ -1,7 +1,7 @@
 En esta página se explicará cómo instalar un servidor DNS sobre UbuntuServer 16.04.1, el servidor DNS que vamos a trabajar es Bind.
 
 
-__Índice__
+       __Índice__
 1. Información y configuración de las máquinas vírtuales.
 2. Instalación y configuración del servidor DNS.
 
