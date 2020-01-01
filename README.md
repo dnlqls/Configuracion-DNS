@@ -9,7 +9,7 @@ ___
 
 **NOTA:** Antes de la configuración del servidor DNS, debemos saber ya varias cosas que son:
 * Tener ya varios equipos configurados y activos en la red (y todos ellos con una IP estática y nombres de la máquina).
-* Saber el nombre de dominio que vamos a poner al servidor DNS, junto IP (también estática).
+* Saber el nombre de dominio que vamos a poner al servidor DNS, junto con la IP (también estática).
 
 _Se ponen IPs estáticas para evitar conflictos de IP._
 * Disponer de 2 servicios (subdominios, como apache2 y DNS). **??**
@@ -22,7 +22,7 @@ ___
 Se necesitará 2 máquinas virtuales una UbuntuServer 16.04.1 y otra Windows 7 y deberán seguir estos pasos para su configuración
 
 Empezamos con Windows:
-1.1 Debemos tener el adaptador en modo puente y conectarnos con una IP estática a la red, pero poner en la opción del DNS la IP del UbuntuServer.
+1. Debemos tener el adaptador en modo puente y conectarnos con una IP estática a la red, pero poner en la opción del DNS la IP del UbuntuServer.
 **IMAGEN**
 1.2 Ahora, iniciamos la máquina y configuramos la red para que sea estática y el DNS se lo aplicaremos a la IP que será la del DNS (UbuntuServer).
 **IMAGEN**
