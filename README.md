@@ -3,7 +3,7 @@ En esta página se explicará cómo instalar y configurar un servidor DNS sobre 
 
 ***ÍNDICE***
            
-1. Información y configuración de las máquinas vírtuales.
+1. Información y configuración de la(s) máquina(s) vírtual(es).
 2. Instalación del servidor DNS usando Webmin.
 3. Configuración DNS con Webmin. 
 
@@ -19,19 +19,16 @@ _Se ponen IPs estáticas para evitar conflictos de IP._
 
 ___
 
-**1. INFORMACIÓN Y CONFIGURACIÓN DE LAS MÁQUINAS VIRTUALES.**
+**1. INFORMACIÓN Y CONFIGURACIÓN DE LA(S) MÁQUINA(S) VIRTUAL(ES).**
 
-Se necesitará 2 máquinas virtuales una UbuntuServer 16.04.1 y otra Windows 7 y deberán seguir estos pasos para su configuración
+Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual si no podemos cambiar la configuración de la red en la anfitrión, en mi caso usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
 
-Empezamos con Windows:
+Empezamos con la anfitrión (Windows 8.1):
 
-   1. Debemos tener el adaptador en modo puente y conectarnos con una IP estática a la red, pero poner en la opción del DNS la IP del       UbuntuServer.
-   
-**IMAGEN**
-   1. Ahora, iniciamos la máquina y configuramos la red para que sea estática y el DNS se lo aplicaremos a la IP que será la del DNS (UbuntuServer).
-   
-**IMAGEN**
+   1. En la configuración de red, pondremos IP estática, gateway, etc. pero en el Serv
+   ![Configurar W8.1 red](Imagenes/Red/Red W8.1.PNG)
    1. Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
+   
 
 **IMAGEN** ![Alt Text](url)
 
