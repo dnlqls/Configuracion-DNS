@@ -4,6 +4,7 @@ En esta página se explicará cómo instalar y configurar un servidor DNS sobre 
            
 1. Información y configuración de las máquinas vírtuales.
 2. Instalación y configuración del servidor DNS.
+
 ___
 
 **NOTA:** Antes de la configuración del servidor DNS, debemos saber ya varias cosas que son:
