@@ -10,7 +10,7 @@ En esta página se explicará cómo instalar y configurar un servidor DNS sobre 
 ___
 
 **NOTA:** Antes de la configuración del servidor DNS, debemos saber ya varias cosas que son:
-* Tener ya varios equipos configurados y activos en la red (y todos ellos con una IP estática y nombres de la máquina).
+* Tener varios equipos configurados y activos en la red (y todos ellos con una IP estática y nombres de la máquina).
 * Saber el nombre de dominio que vamos a poner al servidor DNS, junto con la IP (también estática).
 
 _Se ponen IPs estáticas para evitar conflictos de IP._
@@ -55,3 +55,6 @@ Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DN
    **IMAGEN**
 
 **3. CONFIGURACIÓN DEL DNS CON WEBMIN.**
+   1. Primero, debemos entrar .
+   2. qq
+   3. mm
