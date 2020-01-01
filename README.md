@@ -33,8 +33,12 @@ Ahora con UbuntuServer.
 **NOTA:** Para esta qqqq
 
 1. Item 3
-   1. Item 3a
-   1. Item 3b
+   1. Debemos tener el adaptador en modo puente y conectarnos con una IP estática a la red, pero poner en la opción del DNS la IP del       UbuntuServer.
+**IMAGEN**
+   1. Ahora, iniciamos la máquina y configuramos la red para que sea estática y el DNS se lo aplicaremos a la IP que será la del DNS (UbuntuServer).
+**IMAGEN**
+   1. Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
+**IMAGEN**
 2. qqqq
    1. zzzz
    2. mmmm
