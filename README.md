@@ -30,7 +30,7 @@ Empezamos con Windows:
 **IMAGEN**
 
 Ahora con UbuntuServer.
-**NOTA:** Para esta 
+**NOTA:** Para esta qqqq
 
 1. Item 3
    1. Item 3a
