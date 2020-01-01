@@ -27,12 +27,12 @@ Empezamos con la anfitrión (Windows 8.1):
 
    1. En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer.
  
-    ![Alt Text](Imagenes/Red/Red W8.1.PNG)
+    ![Alt Text](Imagenes/Red/DNS.PNG)
    
    1. Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
-   
+   ![QQ](Imagenes/Red/Red W8.1.PNG)
 
-**IMAGEN** ![Alt Text](url)
+**IMAGEN** ![Alt Text](Imagenes/Red/Red W8.1.PNG)
 
 Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS. 
    1. Primero escogeremos el menú "
