@@ -23,19 +23,25 @@ Se necesitará 2 máquinas virtuales una UbuntuServer 16.04.1 y otra Windows 7 y
 
 Empezamos con Windows:
 
-   1.1.0 Debemos tener el adaptador en modo puente y conectarnos con una IP estática a la red, pero poner en la opción del DNS la IP del       UbuntuServer.
+   1. Debemos tener el adaptador en modo puente y conectarnos con una IP estática a la red, pero poner en la opción del DNS la IP del       UbuntuServer.
 **IMAGEN**
-   1.1.1 Ahora, iniciamos la máquina y configuramos la red para que sea estática y el DNS se lo aplicaremos a la IP que será la del DNS (UbuntuServer).
+   1. Ahora, iniciamos la máquina y configuramos la red para que sea estática y el DNS se lo aplicaremos a la IP que será la del DNS (UbuntuServer).
 **IMAGEN**
-   1.1.2 Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
+   1. Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
 **IMAGEN**
 
 Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS. 
+   1. Primero
+   **IMAGEN**
    1.
+   **IMAGEN**
    1.
+   **IMAGEN**
    1.
-   1.
+   **IMAGEN**
   
 2. 
    1. zzzz
+   **IMAGEN**
    2. mmmm
+   **IMAGEN**
