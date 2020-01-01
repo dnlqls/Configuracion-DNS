@@ -1,6 +1,6 @@
 En esta página se explicará cómo instalar y configurar un servidor DNS sobre UbuntuServer 16.04.1, el servidor DNS que vamos a trabajar es Bind.
 
-                 Índice ![Alt Text](url)
+                 Índice
            
 1. Información y configuración de las máquinas vírtuales.
 2. Instalación y configuración del servidor DNS.
@@ -28,11 +28,11 @@ Empezamos con Windows:
    1. Ahora, iniciamos la máquina y configuramos la red para que sea estática y el DNS se lo aplicaremos a la IP que será la del DNS (UbuntuServer).
 **IMAGEN**
    1. Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
-**IMAGEN**
+**IMAGEN** ![Alt Text](url)
 
 Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS. 
    1. Primero
-   **IMAGEN**
+   ![Primer paso de red DNS](Imagenes/Red/DNS.png)
    1.
    **IMAGEN**
    1.
