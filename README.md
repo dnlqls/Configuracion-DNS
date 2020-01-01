@@ -32,7 +32,7 @@ Empezamos con Windows:
 
 Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS. 
    1. Primero
-   ![Primer paso de red DNS](Imagenes/Red/DNS.png)
+   ![Primer paso de red DNS](Imagenes/Red/1 MENÚ.PNG)
    1.
    **IMAGEN**
    1.
