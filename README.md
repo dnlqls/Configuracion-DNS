@@ -93,6 +93,34 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en lo
  
 **3. CONFIGURACIÓN DEL DNS CON WEBMIN.**
    3.1- Partiendo desde la imagen anterior, debemos darle a " "
+     ![QQ](Imagenes/Instalación/3 Final.PNG)
+
+   3.2
    
-   2. qq
-   3. mm
+   
+   3.3
+   
+   
+   3.4
+   
+   
+   3.5
+   
+   
+   3.6
+   
+   
+   3.7
+   
+   
+   3.8
+   
+   
+   3.9
+   
+   
+   3.10
+   
+   
+   3.11
+   
