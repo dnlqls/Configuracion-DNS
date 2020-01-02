@@ -36,6 +36,7 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
    ![QQ](Imagenes/Red/Red 2.PNG)
 
 *1.2.- Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS.* 
+__NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en los pasos por obviedad.__
 
    1.2.1- Primero escogeremos el menú "Redes" y luego en el submenú "configuración de la red" del Webmin.
    
@@ -52,13 +53,20 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
  
   ![QQ](Imagenes/Red/4 Configurar interfaz.PNG)
   
-  1.2.5- A continuación, 
+  1.2.5- El siguiente paso, es partiendo desde el submenú "configuración de la red" entrar en el apartado "".
+      ![QQ](Imagenes/Red/6 GateWay.PNG)
+
   
+  1.2.6- A continuación, ingresaremos la IP del gateway, en mi caso 192.168.1.1
+   ![QQ](Imagenes/Red/6 GateWay.PNG)
   
+  1.2.7-
   
+ 1.2.! Llegando casi al último paso, aplicaremos la configuración de la interfaz.
+    ![QQ](Imagenes/Red/5 Salvar interfaz.PNG)
+
   
-  
-  1.2.¿- Por último, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
+  1.2.¿- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
   
   ![QQ](Imagenes/Red/Final.PNG)
 
