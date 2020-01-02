@@ -25,19 +25,20 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
 
 Empezamos con la anfitrión (Windows 8.1):
 
-   1. En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer y en el alternativo un servidor DNS real, para traducir las direcciones fuera de la red.
+   1.1.1 En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer y en el alternativo un servidor DNS real, para traducir las direcciones ajenas de la red local.
  
  
    ![QQ](Imagenes/Red/Red W8.1.PNG)
    
-   1. Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
+   1.1.2 Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
    
    
    ![QQ](Imagenes/Red/Red 2.PNG)
 
 
-Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS. 
-   1. Primero escogeremos el menú "
+
+*Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS.* 
+   1.2.1 Primero escogeremos el menú "
    1.
   
   **IMAGEN**
