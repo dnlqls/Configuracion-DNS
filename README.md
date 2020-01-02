@@ -23,31 +23,37 @@ ___
 
 Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual si no podemos cambiar la configuración de la red en la anfitrión, en mi caso usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
 
-Empezamos con la anfitrión (Windows 8.1):
+ 1.1.0 Empezamos con la anfitrión (Windows 8.1):
 
-   1.1.1 En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer y en el alternativo un servidor DNS real, para traducir las direcciones ajenas de la red local.
+   1.1.1- En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer y en el alternativo un servidor DNS real, para traducir las direcciones ajenas de la red local.
  
  
    ![QQ](Imagenes/Red/Red W8.1.PNG)
    
-   1.1.2 Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
+   1.1.2- Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
    
    
    ![QQ](Imagenes/Red/Red 2.PNG)
 
+*1.2.0 Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS.* 
 
-
-*Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS.* 
-   1.2.1 Primero escogeremos el menú "
-   1.
-  
-  **IMAGEN**
-   1.
+   1.2.1- Primero escogeremos el menú "Redes" y luego en el submenú "configuración de la red" del Webmin.
    
-   **IMAGEN**
-   1.
+  ![QQ](Imagenes/Red/1 MENÚ.PNG)
   
-  **IMAGEN**
+  1.2.2- Después, seleccionaremos la opción de "Interfaces de red".
+  ![QQ](Imagenes/Red/2 escoger submenú.PNG)
+  
+   1.2.3- Ahora, seleccionaremos la interfaz de la red  que vamos a configurar (en mi caso, enp0s3).
+   
+  ![QQ](Imagenes/Red/3 escoger Interfaz.PNG)
+  
+  1.2.4- Luego, configuraremos la interfaz con una IP estática y máscara de red.
+ 
+  ![QQ](Imagenes/Red/4 Configurar interfaz.PNG)
+  
+  1.2.5- A continuación, 
+
   
 **2. INSTALACIÓN DEL SERVIDOR DNS USANDO WEBMIN.**
    1. zzzz
