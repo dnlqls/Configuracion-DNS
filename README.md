@@ -25,7 +25,7 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
 
 Empezamos con la anfitrión (Windows 8.1):
 
-   1. En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer.
+   1. En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer y en el alternativo un servidor DNS real, para traducir las direcciones fuera de la red.
  
  
    ![QQ](Imagenes/Red/Red W8.1.PNG)
