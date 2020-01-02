@@ -36,6 +36,7 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
    ![QQ](Imagenes/Red/Red 2.PNG)
 
 *1.2.- Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS.* 
+
 __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en los pasos por obviedad.__
 
    1.2.1- Primero escogeremos el menú "Redes" y luego en el submenú "configuración de la red" del Webmin.
@@ -63,10 +64,12 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en lo
   
   ![QQ](Imagenes/Red/HOSTNAME MENU DNS.PNG)
 
-1.2.8- Ahora, configuramos el servidor DNS en "Servidores DNS" como primera opción asi mismo y luego un servidor DNS real, para traducir las direcciones ajenas de la red local. También en "Orden de resolución" ponemos como 1º opción "Archivos de host" y luego, "DNS".
+1.2.8- Ahora, configuramos el servidor DNS en "Servidores DNS" como primera opción asi mismo y luego un servidor DNS real, para traducir las direcciones ajenas de la red local. También en "Orden de resolución" ponemos como 1º opción "Archivos de host" y luego, "DNS". Y por último, en "Buscar dominios", seleccionaremos "Listado.." y debajo escribiremos el nombre de nuestro dominio DNS (en mi caso lounico.local ).
 
 
-  ![QQ](Imagenes/Red/DNS.PNG)
+
+
+  ![QQ](Imagenes/Red/DNS .png)
 
  1.2.9 Llegando casi al último paso, aplicaremos la configuración de la interfaz.
     ![QQ](Imagenes/Red/5 Salvar interfaz.PNG)
