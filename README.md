@@ -53,20 +53,21 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en lo
  
   ![QQ](Imagenes/Red/4 Configurar interfaz.PNG)
   
-  1.2.5- El siguiente paso, es partiendo desde el submenú "configuración de la red" entrar en el apartado "".
-      ![QQ](Imagenes/Red/6 GateWay.PNG)
-
+  1.2.5- El siguiente paso, es partiendo desde el submenú "configuración de la red" vamos a entrar en el apartado "Enrutamiento y puertas de enlace".
+  ![QQ](Imagenes/Red/GW MENU.PNG)
   
-  1.2.6- A continuación, ingresaremos la IP del gateway, en mi caso 192.168.1.1
+  1.2.6- Posteriormente, ingresaremos la IP del gateway, en mi caso 192.168.1.1
    ![QQ](Imagenes/Red/6 GateWay.PNG)
   
-  1.2.7-
+  1.2.7- A continuación, partiendo desde el submenú "configuración de la red", ingresaremos en el apartado "Nombre de host y cliente DNS.
   
- 1.2.! Llegando casi al último paso, aplicaremos la configuración de la interfaz.
+  ![QQ](Imagenes/Red/HOSTNAME MENU DNS.PNG)
+
+ 1.2.8 Llegando casi al último paso, aplicaremos la configuración de la interfaz.
     ![QQ](Imagenes/Red/5 Salvar interfaz.PNG)
 
   
-  1.2.¿- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
+  1.2.9- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
   
   ![QQ](Imagenes/Red/Final.PNG)
 
