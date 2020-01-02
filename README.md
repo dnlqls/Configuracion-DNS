@@ -59,15 +59,20 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
   
   
   1.2.¿- Por último, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
+  
+  ![QQ](Imagenes/Red/Final.PNG)
 
   
 **2. INSTALACIÓN DEL SERVIDOR DNS USANDO WEBMIN.**
-   1. zzzz
-   **IMAGEN**
-   2. mmmm
-   **IMAGEN**
+   2.1- 
+     ![QQ]()
+
+   2.2 
+  
+   2.3
 
 **3. CONFIGURACIÓN DEL DNS CON WEBMIN.**
-   1. Primero, debemos entrar .
+   1. Primero, debemos entrar  .
+   
    2. qq
    3. mm
