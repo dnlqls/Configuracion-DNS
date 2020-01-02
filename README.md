@@ -1,4 +1,4 @@
-En esta página se explicará cómo instalar y configurar un servidor DNS sobre UbuntuServer 16.04.1, el servidor DNS que vamos a trabajar es Bind.
+En esta página se explicará cómo instalar y configurar un servidor DNS sobre UbuntuServer 16.04.1, el servidor DNS que vamos a trabajar es Bind9.
 
 
 ***ÍNDICE***
@@ -66,7 +66,7 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en lo
 1.2.8- Ahora, configuramos el servidor DNS en "Servidores DNS" como primera opción asi mismo y luego un servidor DNS real, para traducir las direcciones ajenas de la red local. También en "Orden de resolución" ponemos como 1º opción "Archivos de host" y luego, "DNS".
 
 
-  ![QQ](Imagenes/Red/HOSTNAME MENU DNS.PNG)
+  ![QQ](Imagenes/Red/DNS.PNG)
 
  1.2.9 Llegando casi al último paso, aplicaremos la configuración de la interfaz.
     ![QQ](Imagenes/Red/5 Salvar interfaz.PNG)
@@ -77,15 +77,19 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en lo
 
   
 **2. INSTALACIÓN DEL SERVIDOR DNS USANDO WEBMIN.**
-   2.1- 
-     ![QQ]()
+   2.1- Para instalar el servidor DNS, debemos ir al menú "Módulos no utilizados" y accederemos al submenú "Servidor DNS BIND".
+   
+   ![QQ](Imagenes/Instalación/1 Localizar.PNG)
 
-   2.2 
+   2.2- Aquí simplemente le daremos a la casilla "Instalar ahora".
+   ![QQ](Imagenes/Instalación/2 Empezar instalación.PNG)
   
-   2.3
+   2.3- Para ver si todo se instaló correctamente vamos nuevamente a "Módulos no utilizados" y luego a "Servidor DNS BIND". Debe haber 16 casillas de configuración, junto a 7 subcasillas debajo de estas.
+  ![QQ](Imagenes/Instalación/3 Final.PNG)
 
+ 
 **3. CONFIGURACIÓN DEL DNS CON WEBMIN.**
-   1. Primero, debemos entrar  .
+   3.1- Partiendo desde la imagen anterior, debemos darle a " "
    
    2. qq
    3. mm
