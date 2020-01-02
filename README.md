@@ -23,7 +23,7 @@ ___
 
 Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual si no podemos cambiar la configuración de la red en la anfitrión, en mi caso usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
 
- 1.1.0 Empezamos con la anfitrión (Windows 8.1):
+ 1.1.- Empezamos con la anfitrión (Windows 8.1):
 
    1.1.1- En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer y en el alternativo un servidor DNS real, para traducir las direcciones ajenas de la red local.
  
@@ -35,7 +35,7 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
    
    ![QQ](Imagenes/Red/Red 2.PNG)
 
-*1.2.0 Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS.* 
+*1.2.- Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS.* 
 
    1.2.1- Primero escogeremos el menú "Redes" y luego en el submenú "configuración de la red" del Webmin.
    
@@ -53,6 +53,12 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
   ![QQ](Imagenes/Red/4 Configurar interfaz.PNG)
   
   1.2.5- A continuación, 
+  
+  
+  
+  
+  
+  1.2.¿- Por último, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
 
   
 **2. INSTALACIÓN DEL SERVIDOR DNS USANDO WEBMIN.**
