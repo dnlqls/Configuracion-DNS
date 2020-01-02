@@ -63,11 +63,15 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en lo
   
   ![QQ](Imagenes/Red/HOSTNAME MENU DNS.PNG)
 
- 1.2.8 Llegando casi al último paso, aplicaremos la configuración de la interfaz.
+1.2.8- Ahora, configuramos el servidor DNS en "Servidores DNS" como primera opción asi mismo y luego un servidor DNS real, para traducir las direcciones ajenas de la red local. También en "Orden de resolución" ponemos como 1º opción "Archivos de host" y luego, "DNS".
+
+
+  ![QQ](Imagenes/Red/HOSTNAME MENU DNS.PNG)
+
+ 1.2.9 Llegando casi al último paso, aplicaremos la configuración de la interfaz.
     ![QQ](Imagenes/Red/5 Salvar interfaz.PNG)
 
-  
-  1.2.9- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
+  1.2.10- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
   
   ![QQ](Imagenes/Red/Final.PNG)
 
