@@ -71,4 +71,4 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/Final.PNG)
   
   
-  [2. Instalación del servidor DNS usando Webmin.](Instalación y comprobación.MD)
+  [Hazme click para ir a: 2. Instalación del servidor DNS usando Webmin.](Instalación y comprobación.MD)
