@@ -104,6 +104,6 @@ Para la zona inversa, es EXACTAMENTE lo mismo que en la zona Directa, nos situam
   
   Y en la otra zona, tampoco hay errores como podemos visualizar en la siguiente fotografía.
   
-  ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa2.PNG)
+  ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
   
   **OJO: ESTO SOLO CORRIJE SOLAMENTE ERRORES SINTÁCTICOS, SI TE EQUIVOCASTES A LA HORA DE ESCRIBIR LA IP O NOMBRE, NO TE LO DIRÁ.**
