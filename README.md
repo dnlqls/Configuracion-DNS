@@ -27,7 +27,7 @@ ___
 
    3.1- Partiendo la pantalla de configuración (del punto 2-3- Comprobar que la instalación del DNS se instaló correctamente), debemos darle a "Create master zone".
    
-   ![Insertar foto que te cagas de lo chula que es](Imagenes/Instalación/zonas.PNG)
+   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/zonas.PNG)
 
    3.2- Ahora, configuramos la zona maestra: en "Zone type" lo pondremos en 'Forward (Name to Addresses)'. Después en: "Domain name / Network" escribiremos nuestro dominio (en mi caso lounico.local). Por último nos obligará poner algo en: "Email address", podemos escribir cualquier cosa para evadirlo si no queremos poner tu correo.
  
@@ -86,7 +86,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
 
 Para comprobar si hay errores sintácticos en las zonas maestras del servidor DNS, debemos entrar primero en la configuración deuna de las zonas maestras
 
-_Zona Directa:__
+_Zona Directa:_
 
 Primero, debemos situarnos en la zona maestra directa (lounico.local) y dar clic en el botón: "Check Recorder".
 
