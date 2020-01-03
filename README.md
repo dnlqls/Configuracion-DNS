@@ -1,5 +1,4 @@
-En esta página se explicará cómo instalar y configurar un servidor DNS sobre UbuntuServer 16.04.1, el servidor DNS que vamos a trabajar es Bind9.
-
+En esta página se explicará configurar un servidor DNS de BIND9 sobre UbuntuServer 16.04.1 que previamente hemos instalado.
 
 ## ÍNDICE
 [1. Información y configuración de la(s) máquina(s) virtual(es).](Material necesario.MD)
