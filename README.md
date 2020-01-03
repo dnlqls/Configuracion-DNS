@@ -92,35 +92,60 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en lo
 
  
 **3. CONFIGURACIÓN DEL DNS CON WEBMIN.**
-   3.1- Partiendo desde la imagen anterior, debemos darle a " "
-     ![QQ](Imagenes/Instalación/3 Final.PNG)
 
-   3.2
+   3.1- Partiendo la pantalla de configuración (del punto 2-3- Comprobar que la instalación del DNS se instaló correctamente), debemos darle a "Create master zone".
+   
+   ![QQ](Imagenes/Instalación/zonas.PNG)
+
+   3.2- Ahora, configuramos la zona maestra: en "Zone type" lo pondremos en 'Forward (Name to Addresses)'. Después en: "Domain name / Network" escribiremos nuestro dominio (en mi caso lounico.local). Por último nos obligará poner algo en: "Email address", podemos escribir cualquier cosa para evadirlo si no queremos poner tu correo.
+ 
+
+   ![QQ](Imagenes/Configuración/1 zona maestra directa.PNG)
+  
+   3.3- Una vez creado la zona maestra, podemos visualizar todas las opciones de configuración de la zona maestra, de momento le daremos a la casilla "Address(0)".
+   
+  ![QQ](Imagenes/Configuración/2 menús zona maestra.PNG)
+
+   3.4- Dentro de "Address(0)", procederemos a poner los nombres de los equipos en la variable "Name" junto con su respectiva IP privada en "Address".
+   
+  ![QQ](Imagenes/Configuración/3 poner registros nombres a IP.PNG)
+   Crearemos varias más para poder probarlas más adelante.
+
+Después de crear varias IP con los nombres, en la esquina superior derecha, nos encontraremos 2 botones; pulsaremos primero dónde dice: "Apply configuration luego en: "Apply zone", para salvar los cambios.
+
+   ![QQ](Imagenes/Configuración/3 poner registros nombres a IP 2.PNG)
+   
+   3.5- Desde el menú de configuración de la zona maestra, le daremos a "Name Alias".
+            ![QQ](Imagenes/Configuración/CNAME 0.PNG)
+   
+   3.6- Ahora procederemos con los alias o CNAME. En "Name", escribiremos el nombre del subdominio y en "Real Name" pondremos el nombre que habíamos puesto en "Name" del menú "Address" de los pasos 3-3 y 3-4, pero alfinal añadimos el dominio.
+ 
+   ![QQ](Imagenes/Configuración/4 CNAME.PNG)
+   
+   Una vez finalizada la creación de CNAME, le volvemos a dar primero dónde dice: "Apply configuration" luego en: "Apply zone", para salvar los cambios.
+ 
+![QQ](Imagenes/Configuración/4 CNAME 2.PNG)
+
+   3.7- A continuación, crearemos otra zona maestra, pero esta será inversa NO le seleccionamos 'Forward (Name to Addresses)', si no el otro el que dice 'Reverse (Addresses to Name)', en "Domain name / Network" escribiremos la dirección de red, pero sin la última sección (se quedará en 3 sección; 192.168.1).
+ 
+ En "Master server", lo dejamos como está y pondremos el mismo correo electrónico en la variable "Email". 
+   ![QQ](Imagenes/Configuración/5 zona maestra inversa.PNG)
+  
+   3.8- Posteriormente de crear la zona maestra inversa, podremos observar todas las casillas de configuración, hacemos click en "Reverse Addresses(0)".
+   
+   ![QQ](Imagenes/Configuración/6 menús zona maestra inversa.PNG)
+
+   
+   3.9- Ahora haremos justamente lo contrario al paso 3.4-, pondremos primero la dirección IP en "Address" y el nombre en "Hostname".
+ ![QQ](Imagenes/Configuración/7 poner IP a nam.PNG)
+ 
+ Y procederemos nuevamente a salvar los cambios con las opciones: "Apply configuration" luego en: "Apply zone", para salvar los cambios.
+
+   3.10- Y repetimos lo mismo que hemos hecho anteriormente, pero en CNAME (Name Alias).
    
    
-   3.3
+   3.11- Por último paso, salvaremos la configuración desde el raíz del DNS (dónde hemos dado click en "create master zone".
+    ![QQ](Imagenes/Configuración/Sin título.png)
    
    
-   3.4
-   
-   
-   3.5
-   
-   
-   3.6
-   
-   
-   3.7
-   
-   
-   3.8
-   
-   
-   3.9
-   
-   
-   3.10
-   
-   
-   3.11
-   
+  
