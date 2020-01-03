@@ -3,8 +3,11 @@ En esta página se explicará cómo instalar y configurar un servidor DNS sobre 
 
 ## ÍNDICE
 [1. Información y configuración de la(s) máquina(s) virtual(es).](Material necesario.MD)
+
 2. Instalación del servidor DNS usando Webmin.
+
 3. Configuración del DNS con Webmin.
+
 4. Comprobación de los errores sintácticos de la configuración del DNS empleando Webmin.
 
 
