@@ -3,9 +3,10 @@ En esta página se explicará cómo instalar y configurar un servidor DNS sobre 
 
 ## ÍNDICE
            
-1. Información y configuración de la(s) máquina(s) vírtual(es).
-2. Instalación del servidor DNS usando Webmin.
-3. Configuración DNS con Webmin. 
+1. INFORMACIÓN Y CONFIGURACIÓN DE LA(S) MÁQUINA(S) VIRTUAL(ES).
+2. INSTALACIÓN DEL SERVIDOR DNS USANDO WEBMIN.
+3. CONFIGURACIÓN DEL DNS CON WEBMIN.
+4. COMPROBAR ERRORES SINTÁCTICOS EN LA CONFIGURACIÓN DNS EMPLEANDO WEBMIN.
 
 ___
 
@@ -28,7 +29,7 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
    1.1.1- En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer y en el alternativo un servidor DNS real, para traducir las direcciones ajenas de la red local.
  
  
-   ![QQ](Imagenes/Red/Red W8.1.PNG)
+   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/Red W8.1.PNG)
    
    1.1.2- Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
    
@@ -37,7 +38,7 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
 
 *1.2.- Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS.* 
 
-__NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en los pasos por obviedad.__
+__NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los pasos por obviedad.__
 
    1.2.1- Primero escogeremos el menú "Redes" y luego en el submenú "configuración de la red" del Webmin.
    
@@ -153,7 +154,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    
    
   
-## 4. COMPROBAR ERRORES SINTÁCTICOS EN LA CONFIGURACIÓN DNS
+## 4. COMPROBAR ERRORES SINTÁCTICOS EN LA CONFIGURACIÓN DNS EMPLEANDO WEBMIN.
 
 Para comprobar si hay errores sintácticos en las zonas maestras del servidor DNS, debemos entrar primero en la configuración deuna de las zonas maestras
 
