@@ -1,3 +1,13 @@
+## ÍNDICE
+[1. Información y configuración de la(s) máquina(s) virtual(es).](Material necesario.MD)
+
+[2. Instalación del servidor DNS usando Webmin.](Instalación y comprobación.MD)
+
+[3. Configuración del DNS con Webmin.](README.md)
+
+[4. Comprobación de los errores sintácticos de la configuración del DNS empleando Webmin.](README.md)
+
+
 # 1. INFORMACIÓN Y CONFIGURACIÓN DE LA(S) MÁQUINA(S) VIRTUAL(ES).
 
 Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual si no podemos cambiar la configuración de la red en la anfitrión, en mi caso usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
@@ -56,3 +66,6 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
   1.2.10- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
   
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/Final.PNG)
+  
+  
+  [2. Instalación del servidor DNS usando Webmin.](Instalación y comprobación.MD)
