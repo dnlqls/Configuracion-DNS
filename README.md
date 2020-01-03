@@ -149,6 +149,6 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    
    
   
-**##4. COMPROBAR ERRORES SINTÁCTICOS EN LA CONFIGURACIÓN DNS**
+**## 4. COMPROBAR ERRORES SINTÁCTICOS EN LA CONFIGURACIÓN DNS**
 
 Para com
