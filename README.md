@@ -1,7 +1,7 @@
 En esta página se explicará cómo instalar y configurar un servidor DNS sobre UbuntuServer 16.04.1, el servidor DNS que vamos a trabajar es Bind9.
 
 
-***ÍNDICE***
+## ÍNDICE
            
 1. Información y configuración de la(s) máquina(s) vírtual(es).
 2. Instalación del servidor DNS usando Webmin.
@@ -19,7 +19,7 @@ _Se ponen IPs estáticas para evitar conflictos de IP._
 
 ___
 
-**1. INFORMACIÓN Y CONFIGURACIÓN DE LA(S) MÁQUINA(S) VIRTUAL(ES).**
+## 1. INFORMACIÓN Y CONFIGURACIÓN DE LA(S) MÁQUINA(S) VIRTUAL(ES).
 
 Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual si no podemos cambiar la configuración de la red en la anfitrión, en mi caso usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
 
@@ -79,7 +79,7 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en lo
   ![QQ](Imagenes/Red/Final.PNG)
 
   
-**2. INSTALACIÓN DEL SERVIDOR DNS USANDO WEBMIN.**
+## 2. INSTALACIÓN DEL SERVIDOR DNS USANDO WEBMIN.
    2.1- Para instalar el servidor DNS, debemos ir al menú "Módulos no utilizados" y accederemos al submenú "Servidor DNS BIND".
    
    ![QQ](Imagenes/Instalación/1 Localizar.PNG)
@@ -91,7 +91,7 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SÓBRE "Salvar" o similares, no se puso en lo
   ![QQ](Imagenes/Instalación/3 Final.PNG)
 
  
-**3. CONFIGURACIÓN DEL DNS CON WEBMIN.**
+## 3. CONFIGURACIÓN DEL DNS CON WEBMIN.
 
    3.1- Partiendo la pantalla de configuración (del punto 2-3- Comprobar que la instalación del DNS se instaló correctamente), debemos darle a "Create master zone".
    
@@ -150,5 +150,25 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    
   
 ## 4. COMPROBAR ERRORES SINTÁCTICOS EN LA CONFIGURACIÓN DNS
-# qqqq
-Para com
+
+Para comprobar si hay errores sintácticos en las zonas maestras del servidor DNS, debemos entrar primero en la configuración deuna de las zonas maestras
+
+_Zona Directa:__
+
+Primero, debemos situarnos en la zona maestra directa (lounico.local) y dar clic en el botón: "Check Recorder".
+
+   ![QQ](Imagenes/Configuración/Check Di.PNG)
+
+Y como podemos ver, manda un mensaje de que no se han encontrado errores.
+
+   ![QQ](Imagenes/Configuración/Check Di2.PNG)
+
+_Zona Inversa:_
+
+Para la zona inversa, es EXACTAMENTE lo mismo que en la zona Directa, nos situamos en la zona maestra inversa (192.168.1).
+
+  ![QQ](Imagenes/Configuración/Check Inversa.PNG)
+  
+  Y en la otra zona, tampoco hay errores como podemos visualizar en la siguiente fotografía.
+  
+  ![QQ](Imagenes/Configuración/Check Inversa2.PNG)
