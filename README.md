@@ -126,25 +126,29 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
  
 ![QQ](Imagenes/Configuración/4 CNAME 2.PNG)
 
-   3.7- A continuación, crearemos otra zona maestra, pero esta será inversa NO le seleccionamos 'Forward (Name to Addresses)', si no el otro el que dice 'Reverse (Addresses to Name)', en "Domain name / Network" escribiremos la dirección de red, pero sin la última sección (se quedará en 3 sección; 192.168.1).
+   3.7- Para terminar de configurar esta zona, nos situamos en la ventana de inicio de la zona y arriba a la izquierda, estarán los 2 botones para guardar la configuración.
+   
+  ![QQ](Imagenes/Configuración/direc.png)
+
+   3.8- A continuación, crearemos otra zona maestra, pero esta será inversa NO le seleccionamos 'Forward (Name to Addresses)', si no el otro el que dice 'Reverse (Addresses to Name)', en "Domain name / Network" escribiremos la dirección de red, pero sin la última sección (se quedará en 3 sección; 192.168.1).
  
  En "Master server", lo dejamos como está y pondremos el mismo correo electrónico en la variable "Email". 
    ![QQ](Imagenes/Configuración/5 zona maestra inversa.PNG)
   
-   3.8- Posteriormente de crear la zona maestra inversa, podremos observar todas las casillas de configuración, hacemos click en "Reverse Addresses(0)".
+   3.9- Posteriormente de crear la zona maestra inversa, podremos observar todas las casillas de configuración, hacemos click en "Reverse Addresses(0)".
    
    ![QQ](Imagenes/Configuración/6 menús zona maestra inversa.PNG)
 
    
-   3.9- Ahora haremos justamente lo contrario al paso 3.4-, pondremos primero la dirección IP en "Address" y el nombre en "Hostname".
+   3.10- Ahora haremos justamente lo contrario al paso 3.4-, pondremos primero la dirección IP en "Address" y el nombre en "Hostname".
  ![QQ](Imagenes/Configuración/7 poner IP a nam.PNG)
  
  Y procederemos nuevamente a salvar los cambios con las opciones: "Apply configuration" luego en: "Apply zone", para salvar los cambios.
 
-   3.10- Y repetimos lo mismo que hemos hecho anteriormente, pero en CNAME (Name Alias).
+   3.11- Y repetimos lo mismo que hemos hecho anteriormente, pero en CNAME (Name Alias).
    
    
-   3.11- Por último paso, salvaremos la configuración desde el raíz del DNS (dónde hemos dado click en "create master zone".
+   3.12- Por último paso, salvaremos la configuración desde el raíz del DNS (dónde hemos dado click en "create master zone".
     ![QQ](Imagenes/Configuración/Sin título.png)
    
    
@@ -172,3 +176,5 @@ Para la zona inversa, es EXACTAMENTE lo mismo que en la zona Directa, nos situam
   Y en la otra zona, tampoco hay errores como podemos visualizar en la siguiente fotografía.
   
   ![QQ](Imagenes/Configuración/Check Inversa2.PNG)
+  
+  **OJO: ESTO SOLO CORRIJE SOLAMENTE ERRORES SINTÁCTICOS, SI TE EQUIVOCASTES A LA HORA DE ESCRIBIR LA IP O NOMBRE, NO TE LO DIRÁ.**
