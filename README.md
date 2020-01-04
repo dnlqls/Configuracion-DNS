@@ -87,8 +87,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
 Para comprobar si hay errores sintácticos en las zonas maestras del servidor DNS, debemos entrar primero en la configuración de una de las zonas maestras.
 
 Para ir a las zonas maestras, iremos a la raíz del DNS y ahí podemos visualizar las zonas maestras creadas (tanto directa o inversa).
-
-
+    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Sin título2.png)
 
 _Zona Directa:_
 
