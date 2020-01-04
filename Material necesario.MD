@@ -13,17 +13,17 @@ En esta página se explicará qué materiales usaremos y sus respectivas configu
 
 # 1. INFORMACIÓN Y CONFIGURACIÓN DE LA(S) MÁQUINA(S) VIRTUAL(ES).
 
-Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual si no podemos cambiar la configuración de la red en la anfitrión, en mi caso usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
+Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual si no podemos cambiar la configuración de la red en la anfitrión, en mi caso, usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
 
  1.1.- Empezamos con la anfitrión (Windows 8.1):
 
-   1.1.1- En la configuración de red, pondremos IP estática, gateway, etc. pero en el ServerDNS introduciremos la IP del UbuntuServer y en el alternativo un servidor DNS real, para traducir las direcciones ajenas de la red local.
- 
+   1.1.1- En la configuración de red, pondremos IP estática, gateway, etc. pero en el "Servidor DNS preferido:" introduciremos la IP del UbuntuServer y en el alternativo un servidor DNS real, para traducir las direcciones ajenas de la red local.
+   
+ Así primero intentará resolver el paquete con nuestro servidor, si no está la respuesta, la manda al otro DNS fuera de la LAN.
  
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/Red W8.1.PNG)
    
    1.1.2- Aplicamos cambios y comprobamos que toda la configuración de la red que hemos hecho ahora, funcione.
-   
    
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/Red 2.PNG)
 
@@ -42,11 +42,12 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/3 escoger Interfaz.PNG)
   
-  1.2.4- Luego, configuraremos la interfaz con una IP estática y máscara de red.
+  1.2.4- Luego, configuraremos la interfaz con una IP estática y máscara de red. (**OJO:** La IP debe ser la misma que hemos puesto en el DNS Preferido de nuestra máquina física (la de Windows 8.1).
+  
  
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/4 Configurar interfaz.PNG)
   
-  1.2.5- El siguiente paso, es partiendo desde el submenú "configuración de la red" vamos a entrar en el apartado "Enrutamiento y puertas de enlace".
+  1.2.5- El siguiente paso, es partiendo desde el submenú "configuración de la red", vamos a entrar en el apartado "Enrutamiento y puertas de enlace".
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/GW MENU.PNG)
   
   1.2.6- Posteriormente, ingresaremos la IP del gateway, en mi caso 192.168.1.1
@@ -56,7 +57,8 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
   
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/HOSTNAME MENU DNS.PNG)
 
-1.2.8- Ahora, configuramos el servidor DNS en "Servidores DNS" como primera opción asi mismo y luego un servidor DNS real, para traducir las direcciones ajenas de la red local. También en "Orden de resolución" ponemos como 1º opción "Archivos de host" y luego, "DNS". Y por último, en "Buscar dominios", seleccionaremos "Listado.." y debajo escribiremos el nombre de nuestro dominio DNS (en mi caso lounico.local ).
+1.2.8- Ahora, configuramos qué cosas debe hacer cuando intente traducir direcciones a IP o viceversa, en "Servidores DNS" como primera opción así le pondremos su IP, es decir, a si mismo y luego un servidor DNS real, para traducir las direcciones ajenas de la red local. También en "Orden de resolución" ponemos como 1º opción "Archivos de host" y luego, "DNS". Y por último, en "Buscar dominios", seleccionaremos "Listado.." y debajo escribiremos el nombre de nuestro dominio DNS (en mi caso lounico.local ).
+
 
 
 
