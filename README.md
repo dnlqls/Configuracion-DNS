@@ -1,4 +1,4 @@
-En esta página se explicará configurar un servidor DNS de BIND9 sobre UbuntuServer 16.04.1 que previamente hemos instalado.
+En esta página se explicará cómo configurar un servidor DNS de BIND9 sobre UbuntuServer 16.04.1 que previamente hemos instalado.
 
 ## ÍNDICE
 [1. Información y configuración de la(s) máquina(s) virtual(es).](Material necesario.MD)
@@ -34,7 +34,7 @@ ___
 
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/1 zona maestra directa.PNG)
   
-   3.3- Una vez creado la zona maestra, podemos visualizar todas las opciones de configuración de la zona maestra, de momento le daremos a la casilla "Address(0)".
+   3.3- Una vez creado la zona maestra, podemos visualizar todas las opciones de configuración de la zona maestra, de momento, le daremos a la casilla "Address(0)".
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/2 menús zona maestra.PNG)
 
@@ -62,7 +62,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/direc.png)
 
-   3.8- A continuación, crearemos otra zona maestra, pero esta será inversa NO le seleccionamos 'Forward (Name to Addresses)', si no el otro el que dice 'Reverse (Addresses to Name)', en "Domain name / Network" escribiremos la dirección de red, pero sin la última sección (se quedará en 3 sección; 192.168.1).
+   3.8- A continuación, crearemos otra zona maestra, pero esta será inversa NO le seleccionamos 'Forward (Name to Addresses)', si no, el otro el que dice 'Reverse (Addresses to Name)', en "Domain name / Network" escribiremos la dirección de red, pero sin la última sección (se quedará en 3 sección; 192.168.1).
  
  En "Master server", lo dejamos como está y pondremos el mismo correo electrónico en la variable "Email". 
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/5 zona maestra inversa.PNG)
@@ -84,11 +84,15 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
   
 ## 4. COMPROBAR ERRORES SINTÁCTICOS EN LA CONFIGURACIÓN DNS EMPLEANDO WEBMIN.
 
-Para comprobar si hay errores sintácticos en las zonas maestras del servidor DNS, debemos entrar primero en la configuración deuna de las zonas maestras
+Para comprobar si hay errores sintácticos en las zonas maestras del servidor DNS, debemos entrar primero en la configuración de una de las zonas maestras.
+
+Para ir a las zonas maestras, iremos a la raíz del DNS y ahí podemos visualizar las zonas maestras creadas (tanto directa o inversa).
+
+
 
 _Zona Directa:_
 
-Primero, debemos situarnos en la zona maestra directa (lounico.local) y dar clic en el botón: "Check Recorder".
+Primero, debemos situarnos en la zona maestra directa (lounico.local) y dar clic en el botón: "Check Records".
 
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Di.PNG)
 
@@ -98,7 +102,7 @@ Y como podemos ver, manda un mensaje de que no se han encontrado errores.
 
 _Zona Inversa:_
 
-Para la zona inversa, es EXACTAMENTE lo mismo que en la zona Directa, nos situamos en la zona maestra inversa (192.168.1).
+Para la zona inversa, es EXACTAMENTE lo mismo que en la zona directa, nos situamos en la zona maestra inversa (192.168.1) y le daremos a "Check Records".
 
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa.PNG)
   
