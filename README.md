@@ -17,7 +17,7 @@ ___
 * Saber el nombre de dominio que vamos a poner al servidor DNS, junto con la IP (también estática).
 
 _Se ponen IPs estáticas para evitar conflictos de IP._
-* Disponer de 2 servicios (subdominios, como apache2 y DNS). **??**
+* **¿¿¿¿** Disponer de 2 servicios (subdominios, como apache2 y Webmin). **????**
 * Tener instalado y activo el servicio [Webmin](http://www.webmin.com/deb.html).
 
 ___
