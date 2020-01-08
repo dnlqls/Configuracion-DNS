@@ -25,6 +25,8 @@ ___
  
 ## 3. CONFIGURACIÓN DEL DNS CON WEBMIN.
 
+### Crear Zona Directa.
+
    3.1- Partiendo la pantalla de configuración (del punto 2-3- Comprobar que la instalación del DNS se instaló correctamente), debemos darle a "Create master zone".
    
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/zonas.PNG)
@@ -61,6 +63,8 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    3.7- Para terminar de configurar esta zona, nos situamos en la ventana de inicio de la zona y arriba a la izquierda, estarán los 2 botones para guardar la configuración.
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/direc.png)
+  
+### Crear Zona Inversa
 
    3.8- A continuación, crearemos otra zona maestra, pero esta será inversa NO le seleccionamos 'Forward (Name to Addresses)', si no, el otro el que dice 'Reverse (Addresses to Name)', en "Domain name / Network" escribiremos la dirección de red, pero sin la última sección (se quedará en 3 sección; 192.168.1).
  
