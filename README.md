@@ -17,7 +17,6 @@ ___
 * Saber el nombre de dominio que vamos a poner al servidor DNS, junto con la IP (también estática).
 
 _Se ponen IPs estáticas para evitar conflictos de IP._
-* **¿¿¿¿** Disponer de 2 servicios (subdominios, como apache2 y Webmin). **????**
 * Tener instalado y activo el servicio [Webmin](http://www.webmin.com/deb.html).
 
 ___
@@ -31,12 +30,12 @@ ___
    
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/zonas.PNG)
 
-   3.2- **Registro NS** Ahora, configuramos la zona maestra: en "Zone type" lo pondremos en 'Forward (Name to Addresses)'. Después en: "Domain name / Network" escribiremos nuestro dominio (en mi caso lounico.local). Por último nos obligará poner algo en: "Email address", podemos escribir cualquier cosa para evadirlo si no queremos poner tu correo.
+   3.2- **(Registro NS)** Ahora, configuramos la zona maestra: en "Zone type" lo pondremos en 'Forward (Name to Addresses)'. Después en: "Domain name / Network" escribiremos nuestro dominio (en mi caso lounico.local). Por último nos obligará poner algo en: "Email address", podemos escribir cualquier cosa para evadirlo si no queremos poner tu correo.
  
 
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/1 zona maestra directa.PNG)
   
-   3.3- **Registro A** Una vez creado la zona maestra, podemos visualizar todas las opciones de configuración de la zona maestra, de momento, le daremos a la casilla "Address(0)".
+   3.3- **(Registro A)** Una vez creado la zona maestra, podemos visualizar todas las opciones de configuración de la zona maestra, de momento, le daremos a la casilla "Address(0)".
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/2 menús zona maestra.PNG)
 
@@ -52,7 +51,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    3.5- Desde el menú de configuración de la zona maestra, le daremos a "Name Alias".
             ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/CNAME 0.PNG)
    
-   3.6- **Registro CNAME** Ahora procederemos con los alias o CNAME. En "Name", escribiremos el nombre del subdominio y en "Real Name" pondremos el nombre que habíamos puesto en "Name" del menú "Address" de los pasos 3-3 y 3-4, pero alfinal añadimos el dominio.
+   3.6- **(Registro CNAME)** Ahora procederemos con los alias o CNAME. En "Name", escribiremos el nombre del subdominio y en "Real Name" pondremos el nombre que habíamos puesto en "Name" del menú "Address" de los pasos 3-3 y 3-4, pero alfinal añadimos el dominio.
  
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/4 CNAME.PNG)
    
@@ -60,7 +59,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
  
 ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/4 CNAME 2.PNG)
 
-   3.7- **Registro MX** Casi llegando al último paso, vamos a hacer un registro MX (e-mail)
+   3.7- **(Registro MX)** Casi llegando al último paso, vamos a hacer un registro MX (e-mail)
    
    
 
