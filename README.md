@@ -60,7 +60,11 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
  
 ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/4 CNAME 2.PNG)
 
-   3.7- Para terminar de configurar esta zona, nos situamos en la ventana de inicio de la zona y arriba a la izquierda, estarán los 2 botones para guardar la configuración.
+   3.7- Casi llegando al último paso, vamos a hacer un registro MX (e-mail)
+   
+   
+
+   3.8- Para terminar de configurar esta zona, nos situamos en la ventana de inicio de la zona y arriba a la izquierda, estarán los 2 botones para guardar la configuración.
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/direc.png)
   
