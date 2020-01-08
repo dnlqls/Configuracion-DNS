@@ -59,32 +59,36 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
  
 ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/4 CNAME 2.PNG)
 
-   3.7- **(Registro MX)** Casi llegando al último paso, vamos a hacer un registro MX (e-mail)
+   3.7- **(Registro MX)** Casi llegando al último paso de esta zona maestra, vamos a hacer un registro MX (e-mail). Para ello, nos situamos en la configuración de la zona maestra y le daremos a "Mail Server".
    
-   
+   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/mailserver.PNG)
 
-   3.8- Para terminar de configurar esta zona, nos situamos en la ventana de inicio de la zona y arriba a la izquierda, estarán los 2 botones para guardar la configuración.
+   3.8- Ahora pondremos en "Name" cómo queremos que se llame el el servicio web, en mi caso, le puse "servidorweb" y en "Real Name" ponemos la IP de nuestro servidor (que en mi caso, es el propio UbuntuServer).
+    
+   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Capturaq9w48209432.PNG)
+
+
+   3.9- Para terminar de configurar esta zona, nos situamos en la ventana de inicio de la zona y arriba a la izquierda, estarán los 2 botones para guardar la configuración.
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/direc.png)
   
 ### Crear Zona Inversa
 
-   3.8- A continuación, crearemos otra zona maestra, pero esta será inversa NO le seleccionamos 'Forward (Name to Addresses)', si no, el otro el que dice 'Reverse (Addresses to Name)', en "Domain name / Network" escribiremos la dirección de red, pero sin la última sección (se quedará en 3 sección; 192.168.1).
+   3.10- A continuación, crearemos otra zona maestra, pero esta será inversa NO le seleccionamos 'Forward (Name to Addresses)', si no, el otro el que dice 'Reverse (Addresses to Name)', en "Domain name / Network" escribiremos la dirección de red, pero sin la última sección (se quedará en 3 sección; 192.168.1).
  
  En "Master server", lo dejamos como está y pondremos el mismo correo electrónico en la variable "Email". 
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/5 zona maestra inversa.PNG)
   
-   3.9- Posteriormente de crear la zona maestra inversa, podremos observar todas las casillas de configuración, hacemos click en "Reverse Addresses(0)".
+   3.11- **Registro PTR** Posteriormente de crear la zona maestra inversa, podremos observar todas las casillas de configuración, hacemos click en "Reverse Addresses(0)".
    
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/6 menús zona maestra inversa.PNG)
-
    
-   3.10- **Registro PTR** Ahora haremos justamente lo contrario al paso 3.4-, pondremos primero la dirección IP en "Address" y el nombre en "Hostname".
+   3.12- Ahora haremos justamente lo contrario al paso 3.4-, pondremos primero la dirección IP en "Address" y el nombre en "Hostname".
  ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/7 poner IP a nam.PNG)
  
  Y procederemos nuevamente a salvar los cambios con las opciones: "Apply configuration" luego en: "Apply zone", para salvar los cambios.
    
-   3.11- Por último paso, salvaremos la configuración desde el raíz del DNS (dónde hemos dado click en "create master zone".
+   3.13- Por último paso, salvaremos la configuración desde el raíz del DNS (dónde hemos dado click en "create master zone".
     ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Sin título.png)
    
    
