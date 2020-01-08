@@ -31,12 +31,12 @@ ___
    
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/zonas.PNG)
 
-   3.2- Ahora, configuramos la zona maestra: en "Zone type" lo pondremos en 'Forward (Name to Addresses)'. Después en: "Domain name / Network" escribiremos nuestro dominio (en mi caso lounico.local). Por último nos obligará poner algo en: "Email address", podemos escribir cualquier cosa para evadirlo si no queremos poner tu correo.
+   3.2- **Registro NS** Ahora, configuramos la zona maestra: en "Zone type" lo pondremos en 'Forward (Name to Addresses)'. Después en: "Domain name / Network" escribiremos nuestro dominio (en mi caso lounico.local). Por último nos obligará poner algo en: "Email address", podemos escribir cualquier cosa para evadirlo si no queremos poner tu correo.
  
 
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/1 zona maestra directa.PNG)
   
-   3.3- Una vez creado la zona maestra, podemos visualizar todas las opciones de configuración de la zona maestra, de momento, le daremos a la casilla "Address(0)".
+   3.3- **Registro A** Una vez creado la zona maestra, podemos visualizar todas las opciones de configuración de la zona maestra, de momento, le daremos a la casilla "Address(0)".
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/2 menús zona maestra.PNG)
 
@@ -52,7 +52,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    3.5- Desde el menú de configuración de la zona maestra, le daremos a "Name Alias".
             ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/CNAME 0.PNG)
    
-   3.6- Ahora procederemos con los alias o CNAME. En "Name", escribiremos el nombre del subdominio y en "Real Name" pondremos el nombre que habíamos puesto en "Name" del menú "Address" de los pasos 3-3 y 3-4, pero alfinal añadimos el dominio.
+   3.6- **Registro CNAME** Ahora procederemos con los alias o CNAME. En "Name", escribiremos el nombre del subdominio y en "Real Name" pondremos el nombre que habíamos puesto en "Name" del menú "Address" de los pasos 3-3 y 3-4, pero alfinal añadimos el dominio.
  
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/4 CNAME.PNG)
    
@@ -60,7 +60,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
  
 ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/4 CNAME 2.PNG)
 
-   3.7- Casi llegando al último paso, vamos a hacer un registro MX (e-mail)
+   3.7- **Registro MX** Casi llegando al último paso, vamos a hacer un registro MX (e-mail)
    
    
 
@@ -80,7 +80,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/6 menús zona maestra inversa.PNG)
 
    
-   3.10- Ahora haremos justamente lo contrario al paso 3.4-, pondremos primero la dirección IP en "Address" y el nombre en "Hostname".
+   3.10- **Registro PTR** Ahora haremos justamente lo contrario al paso 3.4-, pondremos primero la dirección IP en "Address" y el nombre en "Hostname".
  ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/7 poner IP a nam.PNG)
  
  Y procederemos nuevamente a salvar los cambios con las opciones: "Apply configuration" luego en: "Apply zone", para salvar los cambios.
@@ -97,7 +97,7 @@ Para comprobar si hay errores sintácticos en las zonas maestras del servidor DN
 Para ir a las zonas maestras, iremos a la raíz del DNS y ahí podemos visualizar las zonas maestras creadas (tanto directa o inversa).
     ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Sin título2.png)
 
-_Zona Directa:_
+### Zona Directa:
 
 Primero, debemos situarnos en la zona maestra directa (lounico.local) y dar clic en el botón: "Check Records".
 
@@ -107,7 +107,7 @@ Y como podemos ver, manda un mensaje de que no se han encontrado errores.
 
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Di2.PNG)
 
-_Zona Inversa:_
+### Zona Inversa:
 
 Para la zona inversa, es EXACTAMENTE lo mismo que en la zona directa, nos situamos en la zona maestra inversa (192.168.1) y le daremos a "Check Records".
 
