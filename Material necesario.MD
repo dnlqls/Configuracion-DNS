@@ -70,7 +70,12 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
 
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/DNS .png)
 
-  1.2.11- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
+1.2.11- Como penúltimo paso, aplicamos la configuración para que todo lo que hemos hecho se guarde y se aplique.
+
+  ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Aplicar configuracion.PNG)
+
+
+  1.2.12- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
   
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/Final.PNG)
   
