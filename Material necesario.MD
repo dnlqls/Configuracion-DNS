@@ -62,7 +62,7 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
   1.2.8- Posteriormente, ingresaremos la IP del gateway, en mi caso 192.168.1.1
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/6 GateWay.PNG)
   
-  1.2.9- A continuación, partiendo desde el submenú "configuración de la red", ingresaremos en el apartado "Nombre de host y cliente DNS.
+  1.2.9- A continuación, partiendo desde el submenú "configuración de la red", ingresaremos en el apartado "Nombre de host y cliente DNS".
   
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/HOSTNAME MENU DNS.PNG)
 
