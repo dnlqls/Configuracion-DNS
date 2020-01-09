@@ -28,7 +28,8 @@ Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo
    
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/Red 2.PNG)
 
-### *1.2.- Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el DNS.* 
+
+### *1.2.- Ahora con UbuntuServer, usaremos Webmin para configurar tanto la red, como el Cliente DNS:* 
 
 __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los pasos por obviedad.__
 
