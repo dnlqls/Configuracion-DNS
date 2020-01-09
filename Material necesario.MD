@@ -13,7 +13,7 @@ En esta página se explicará qué materiales usaremos y sus respectivas configu
 
 # 1. INFORMACIÓN Y CONFIGURACIÓN DE LA(S) MÁQUINA(S) VIRTUAL(ES).
 
-Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual si no podemos cambiar la configuración de la red en la anfitrión, en mi caso, usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
+Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual, si no podemos cambiar la configuración de la red en la anfitrión, en mi caso, usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
 
 
  ### *1.1.- Empezamos con la anfitrión (Windows 8.1):*
@@ -52,7 +52,7 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
  
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/4 Configurar interfaz.PNG)
   
-   1.2.5 Llegando casi al último paso, aplicaremos la configuración de la interfaz.
+   1.2.5 Continuamos aplicando la configuración de la interfaz.
     
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/5 Salvar interfaz.PNG)
     
