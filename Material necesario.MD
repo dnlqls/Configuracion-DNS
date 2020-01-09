@@ -15,7 +15,7 @@ En esta página se explicará qué materiales usaremos y sus respectivas configu
 
 Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual si no podemos cambiar la configuración de la red en la anfitrión, en mi caso, usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
 
- ### *1.1.- Empezamos con la anfitrión (Windows 8.1):*
+ ### 1.1.- Empezamos con la anfitrión (Windows 8.1):
 
    1.1.1- En la configuración de red, pondremos IP estática, gateway, etc. pero en el "Servidor DNS preferido:" introduciremos la IP del UbuntuServer (que previamente habremos pensado y en unos pasos más adelante la pondremos en el UbuntuServer) y en el alternativo un servidor DNS real, para traducir las direcciones ajenas de la red local.
    
