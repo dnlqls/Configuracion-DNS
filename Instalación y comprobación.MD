@@ -19,7 +19,7 @@ En esta página se explicará cómo instalar y comprobar que se instaló correct
    
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Instalación/2 Empezar instalación.PNG)
   
-   2.3- Para ver si todo se instaló correctamente vamos nuevamente a "Módulos no utilizados" y luego a "Servidor DNS BIND". Debe haber 16 casillas de configuración, junto a 7 subcasillas debajo de estas.
+   2.3- Para ver si todo se instaló correctamente vamos nuevamente a "Servidores" y luego a "BIND DNS Server". Debe haber 16 casillas de configuración, junto a 9 subcasillas debajo de estas y 5 zonas ya creadas por defecto.
    
    
    
