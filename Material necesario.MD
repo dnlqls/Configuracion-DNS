@@ -13,7 +13,7 @@ En esta página se explicará qué materiales usaremos y sus respectivas configu
 
 # 1. INFORMACIÓN Y CONFIGURACIÓN DE LA(S) MÁQUINA(S) VIRTUAL(ES).
 
-Se necesitará 1 máquina virtual de UbuntuServer 16.04.5 y el sistema operativo anfitrión (u otra máquina virtual, si no podemos cambiar la configuración de la red en la anfitrión, en mi caso, usaré UbuntuServer 16.04.5 y mi equipo físico Windows 8.1).
+Se necesitará 1 máquina virtual de UbuntuServer 16.04.1 y el sistema operativo anfitrión (u otra máquina virtual, si no podemos cambiar la configuración de la red en la anfitrión, en mi caso, usaré UbuntuServer 16.04.1 y mi equipo físico Windows 8.1).
 
 
  ### *1.1.- Empezamos con la anfitrión (Windows 8.1):*
