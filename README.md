@@ -9,18 +9,6 @@ En esta página se explicará cómo configurar un servidor DNS de BIND9 sobre Ub
 
 [4. Comprobación de los errores sintácticos de la configuración del DNS empleando Webmin.](README.md)
 
-
-___
-
-**NOTA:** Antes de la configuración del servidor DNS, debemos saber ya varias cosas que son:
-* Tener varios equipos configurados y activos en la red (y todos ellos con una IP estática y nombres de la máquina).
-* Saber el nombre de dominio que vamos a poner al servidor DNS, junto con la IP (también estática).
-
-_Se ponen IPs estáticas para evitar conflictos de IP._
-* Tener instalado y activo el servicio [Webmin](http://www.webmin.com/deb.html).
-
-___
-  
  
 ## 3. CONFIGURACIÓN DEL DNS CON WEBMIN.
 
@@ -30,7 +18,9 @@ ___
    
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/zonas.PNG)
 
-   3.2- **(Registro NS)** Ahora, configuramos la zona maestra: en "Zone type" lo pondremos en 'Forward (Name to Addresses)'. Después en: "Domain name / Network" escribiremos nuestro dominio (en mi caso lounico.local). Por último nos obligará poner algo en: "Email address", podemos escribir cualquier cosa para evadirlo si no queremos poner tu correo.
+   3.2- **(Registro NS)** Ahora, configuramos la zona maestra: en "Zone type" lo pondremos en 'Forward (Name to Addresses)'. Después en: "Domain name / Network" escribiremos nuestro dominio (debe ser el mismo dominio que hemos puesto en "Listado..." cuando estabamos configurando el UbuntuServer,en mi caso lounico.local). Por último nos obligará poner algo en: "Email address", podemos escribir cualquier cosa para evadirlo si no queremos poner un correo verdadero.
+ 
+ 
  
 
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/1 zona maestra directa.PNG)
@@ -42,7 +32,7 @@ ___
    3.4- Dentro de "Address(0)", procederemos a poner los nombres de los equipos en la variable "Name" junto con su respectiva IP privada en "Address".
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/3 poner registros nombres a IP.PNG)
-   Crearemos varias más para poder probarlas más adelante.
+   Crearemos varias más, para poder probarlas más adelante.
 
 Después de crear varias IP con los nombres, en la esquina superior derecha, nos encontraremos 2 botones; pulsaremos primero dónde dice: "Apply configuration luego en: "Apply zone", para salvar los cambios.
 
@@ -51,7 +41,8 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    3.5- Desde el menú de configuración de la zona maestra, le daremos a "Name Alias".
             ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/CNAME 0.PNG)
    
-   3.6- **(Registro CNAME)** Ahora procederemos con los alias o CNAME. En "Name", escribiremos el nombre del subdominio y en "Real Name" pondremos el nombre que habíamos puesto en "Name" del menú "Address" de los pasos 3-3 y 3-4, pero alfinal añadimos el dominio.
+   3.6- **(Registro CNAME)** Ahora procederemos con los alias o CNAME. En "Name", escribiremos el nombre del subdominio y en "Real Name" pondremos el nombre que habíamos puesto en "Name" del menú "Address" de los pasos 3-3 y 3-4, pero alfinal añadimos el dominio (para hacer referencia a un host).
+   
  
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/4 CNAME.PNG)
    
