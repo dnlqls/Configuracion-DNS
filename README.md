@@ -81,7 +81,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
  Y procederemos nuevamente a salvar los cambios con las opciones: "Apply configuration" luego en: "Apply zone", para salvar los cambios.
    
    3.13- Por último paso, salvaremos la configuración desde el raíz del DNS (dónde hemos dado click en "create master zone".
-    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Sin título.png)
+    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Sin título.PNG)
    
    
   
@@ -113,3 +113,16 @@ Para la zona inversa, es EXACTAMENTE lo mismo que en la zona directa, nos situam
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
   
   **OJO: ESTO SOLO CORRIJE SOLAMENTE ERRORES SINTÁCTICOS, SI TE EQUIVOCASTES A LA HORA DE ESCRIBIR LA IP O NOMBRE, NO TE LO DIRÁ.**
+  
+  Para visualizar los tipos de registros y comprobar que hemos puesto bien las IPs/nombres, debemos ir a las zonas maestras de Inversa (192.168.1) y la Directa (lounico.local), ahí aparecerá una casilla llamada "" con el que podemos visualizar los tipos de registros realizados.
+  
+  
+  ### Zona Directa
+   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
+     ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
+
+### Zona Inversa
+  ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
+     ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
+
+  
