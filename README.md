@@ -118,11 +118,11 @@ Para la zona inversa, es EXACTAMENTE lo mismo que en la zona directa, nos situam
   
   
   ### Zona Directa
-   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
-     ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
+   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/DIRECTA REGISTRO.PNG)
+     ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/DIRECTA REGISTRO22.PNG)
 
 ### Zona Inversa
-  ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
-     ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
+  ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/REVERSA REGISTROS.PNG)
+     ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/REVERSA REGISTROS2.PNG)
 
   
