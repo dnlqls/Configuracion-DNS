@@ -23,7 +23,7 @@ En esta página se explicará cómo instalar y comprobar que se instaló correct
    
    
    
-  ![Insertar foto que te cagas de lo chula que es](Imagenes/Instalación/Esta.PNG)
+  ![Insertar foto que te cagas de lo chula que es](Imagenes/Instalación/Esta.png)
 
 
 [Cliqueame para ir a: 3. Configuración del DNS con Webmin.](README.md)
