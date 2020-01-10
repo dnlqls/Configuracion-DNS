@@ -7,7 +7,7 @@ En esta página se explicará cómo configurar un servidor DNS de BIND9 sobre Ub
 
 [3. Configuración del DNS con Webmin.](README.md)
 
-[4. Comprobación de los errores sintácticos de la configuración del DNS empleando Webmin.](README.md)
+[4. Comprobación de los errores de la configuración del DNS empleando Webmin.](README.md)
 
  
 ## 3. CONFIGURACIÓN DEL DNS CON WEBMIN.
@@ -85,7 +85,7 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
    
    
   
-## 4. COMPROBAR ERRORES SINTÁCTICOS EN LA CONFIGURACIÓN DNS EMPLEANDO WEBMIN.
+## 4. COMPROBAR ERRORES EN LA CONFIGURACIÓN DNS EMPLEANDO WEBMIN.
 
 Para comprobar si hay errores sintácticos en las zonas maestras del servidor DNS, debemos entrar primero en la configuración de una de las zonas maestras.
 
@@ -113,7 +113,8 @@ Para la zona inversa, es EXACTAMENTE lo mismo que en la zona directa, nos situam
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa 2.PNG)
   
   **OJO: ESTO SOLO CORRIJE SOLAMENTE ERRORES SINTÁCTICOS, SI TE EQUIVOCASTES A LA HORA DE ESCRIBIR LA IP O NOMBRE, NO TE LO DIRÁ.**
-  
+ 
+ ## Revisar los tipos de registros 
   Para visualizar los tipos de registros y comprobar que hemos puesto bien las IPs/nombres, debemos ir a las zonas maestras de Inversa (192.168.1) y la Directa (lounico.local), ahí aparecerá una casilla llamada "" con el que podemos visualizar los tipos de registros realizados.
   
   
