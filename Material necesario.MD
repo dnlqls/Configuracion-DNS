@@ -81,6 +81,8 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
 
   1.2.11- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
   
+  **NOTA:** Si no se aplicó los cambios, simplemente hay que reiniciar la máquina de UbuntuServer.
+  
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/Final.PNG)
   
   
