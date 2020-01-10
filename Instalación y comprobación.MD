@@ -22,7 +22,7 @@ En esta página se explicará cómo instalar y comprobar que se instaló correct
    2.3- Para ver si todo se instaló correctamente vamos nuevamente a "Servidores" y luego a "BIND DNS Server". Debe haber 16 casillas de configuración, junto a 8 subcasillas debajo de estas y 5 zonas ya creadas por defecto.
    
    
-   
+   ![Insertar foto que te cagas de lo chula que es](Imagenes/Instalación/INSTALACION4324325234.PNG)
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Instalación/Esta.png)
 
 
