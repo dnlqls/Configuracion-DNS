@@ -7,7 +7,7 @@ En esta página se explicará cómo instalar y comprobar que se instaló correct
 
 [3. Configuración del DNS con Webmin.](README.md)
 
-[4. Comprobación de los errores sintácticos de la configuración del DNS empleando Webmin.](README.md)
+[4. Comprobación de los errores de la configuración del DNS empleando Webmin.](README.md)
 
 # 2. INSTALACIÓN DEL SERVIDOR DNS USANDO WEBMIN.
    2.1- Para instalar el servidor DNS, debemos ir al menú "Módulos no utilizados" y accederemos al submenú "Servidor DNS BIND".
