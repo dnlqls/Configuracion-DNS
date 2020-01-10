@@ -1,4 +1,4 @@
-En esta página se explicará cómo instalar y comprobar que se instaló correctamente el servidor DNS BIND9 sobre UbuntuServer 16.04.1 utilizando el servicio Webmin.
+En esta página se explicará cómo instalar y comprobar que se instaló correctamente el servidor DNS BIND9 sobre UbuntuServer 16.04.5 utilizando el servicio Webmin.
 
 ## ÍNDICE
 [1. Información y configuración de la(s) máquina(s) virtual(es).](Material necesario.MD)
