@@ -56,17 +56,17 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
     
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/5 Salvar interfaz.PNG)
     
-  1.2.7- El siguiente paso, es partiendo desde el submenú "configuración de la red", vamos a entrar en el apartado "Enrutamiento y puertas de enlace".
+  1.2.6- El siguiente paso, es partiendo desde el submenú "configuración de la red", vamos a entrar en el apartado "Enrutamiento y puertas de enlace".
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/GW MENU.PNG)
   
-  1.2.8- Posteriormente, ingresaremos la IP del gateway, en mi caso 192.168.1.1
+  1.2.7- Posteriormente, ingresaremos la IP del gateway, en mi caso 192.168.1.1
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/6 GateWay.PNG)
   
-  1.2.9- A continuación, partiendo desde el submenú "configuración de la red", ingresaremos en el apartado "Nombre de host y cliente DNS".
+  1.2.8- A continuación, partiendo desde el submenú "configuración de la red", ingresaremos en el apartado "Nombre de host y cliente DNS".
   
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/HOSTNAME MENU DNS.PNG)
 
-1.2.10- Ahora, configuramos qué tiene que hacer cuando intenta resolver un nombre a IP o viceversa, en "Servidores DNS", como su primera opción le ponemos su IP (a sí mismo) y luego un servidor DNS real, así cuando intente resolver una petición se la 'mandará' a asi mismo, si no la encuentra, entonces la manda al otro servidor DNS. También en "Orden de resolución" ponemos como 1º opción "Archivos de host" y luego, "DNS". Y por último, en "Buscar dominios", seleccionaremos "Listado.." y debajo escribiremos el nombre de nuestro dominio DNS (en mi caso lounico.local ).
+1.2.9- Ahora, configuramos qué tiene que hacer cuando intenta resolver un nombre a IP o viceversa, en "Servidores DNS", como su primera opción le ponemos su IP (a sí mismo) y luego un servidor DNS real, así cuando intente resolver una petición se la 'mandará' a asi mismo, si no la encuentra, entonces la manda al otro servidor DNS. También en "Orden de resolución" ponemos como 1º opción "Archivos de host" y luego, "DNS". Y por último, en "Buscar dominios", seleccionaremos "Listado.." y debajo escribiremos el nombre de nuestro dominio DNS (en mi caso lounico.local ).
 
 
 
@@ -74,12 +74,12 @@ __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los
 
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/DNS .png)
 
-1.2.11- Como penúltimo paso, aplicamos la configuración para que todo lo que hemos hecho se guarde y se aplique.
+1.2.10- Como penúltimo paso, aplicamos la configuración para que todo lo que hemos hecho se guarde y se aplique.
 
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Aplicar configuracion.PNG)
 
 
-  1.2.12- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
+  1.2.11- Finalmente, vamos a la máquina de UbuntuServer y escribiremos el comando: ifconfig . Para comprobar que la configuración se aplicó correctamente.
   
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/Final.PNG)
   
