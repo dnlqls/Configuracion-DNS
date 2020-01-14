@@ -81,7 +81,8 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
  Y procederemos nuevamente a salvar los cambios con las opciones: "Apply configuration" luego en: "Apply zone", para salvar los cambios.
    
    3.13- Por último paso, salvaremos la configuración desde el raíz del DNS (dónde hemos dado click en "create master zone".
-    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Sin título.PNG)
+   
+   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Sin título.PNG)
    
    
   
@@ -90,7 +91,8 @@ Después de crear varias IP con los nombres, en la esquina superior derecha, nos
 Para comprobar si hay errores sintácticos en las zonas maestras del servidor DNS, debemos entrar primero en la configuración de una de las zonas maestras.
 
 Para ir a las zonas maestras, iremos a la raíz del DNS y ahí podemos visualizar las zonas maestras creadas (tanto directa o inversa).
-    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Sin título2.png)
+
+   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Sin título2.png)
 
 ### Zona Directa:
 
@@ -105,6 +107,7 @@ Y como podemos ver, manda un mensaje de que no se han encontrado errores.
 ### Zona Inversa:
 
 Para la zona inversa, es EXACTAMENTE lo mismo que en la zona directa, nos situamos en la zona maestra inversa (192.168.1) y le daremos a "Check Records".
+
 
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/Check Inversa.PNG)
   
