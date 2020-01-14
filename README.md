@@ -115,6 +115,7 @@ Para la zona inversa, es EXACTAMENTE lo mismo que en la zona directa, nos situam
   **OJO: ESTO SOLO CORRIJE SOLAMENTE ERRORES SINTÁCTICOS, SI TE EQUIVOCASTES A LA HORA DE ESCRIBIR LA IP O NOMBRE, NO TE LO DIRÁ.**
  
  ## Revisar los tipos de registros 
+ 
   Para visualizar los tipos de registros y comprobar que hemos puesto bien las IPs/nombres, debemos ir a las zonas maestras de Inversa (192.168.1) y la Directa (lounico.local), ahí aparecerá una casilla llamada "" con el que podemos visualizar los tipos de registros realizados.
   
   
