@@ -2,7 +2,7 @@ En esta página se explicará qué materiales usaremos y sus respectivas configu
 
 ## ÍNDICE
 
-[1. Información y configuración de la(s) máquina(s) virtual(es).](Material necesario.MD)
+[1. Información y configuración de la máquina virtual.](Material necesario.MD)
 
 [2. Instalación del servidor DNS usando Webmin.](Instalación y comprobación.MD)
 
