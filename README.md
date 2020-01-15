@@ -1,7 +1,7 @@
 En esta página se explicará cómo configurar un servidor DNS de BIND9 sobre UbuntuServer 16.04.5 que previamente hemos instalado.
 
 ## ÍNDICE
-[1. Información y configuración de la(s) máquina(s) virtual(es).](Material necesario.MD)
+[1. Información y configuración de la máquina virtual.](Material necesario.MD)
 
 [2. Instalación del servidor DNS usando Webmin.](Instalación y comprobación.MD)
 
