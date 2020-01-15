@@ -15,6 +15,8 @@ En esta página se explicará qué materiales usaremos y sus respectivas configu
  
 __NOTA: EN CADA PASO, SE PINCHARÁ SOBRE "Salvar" o similares, no se puso en los pasos por obviedad.__
 
+1-1.- Abriremos Webmin e iniciamos sesión con una cuenta que tenga permisos elevados.
+
    1.2- Primero escogeremos el menú "Redes" y luego en el submenú "configuración de la red" del Webmin.
    
   ![Insertar foto que te cagas de lo chula que es](Imagenes/Red/1 MENÚ.PNG)
