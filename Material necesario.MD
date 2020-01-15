@@ -1,5 +1,12 @@
 En esta página se explicará qué materiales usaremos y sus respectivas configuraciones.
 
+Aquí tenéis los enlaces de las ovas de UbuntuServer, una totalmente configurada (red, DNS, etc) y otra sin instalar el servidor DNS, para que podáis seguir la práctica.
+
+Ubuntu Server 16.04.5 - Totalmente configurada -->
+
+Ubuntu Server 16.04.5 - Seguir Práctica->
+
+
 ## ÍNDICE
 
 [1. Información y configuración de la máquina virtual.](Material necesario.MD)
