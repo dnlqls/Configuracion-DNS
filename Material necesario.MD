@@ -2,6 +2,8 @@ En esta página se explicará qué materiales usaremos y sus respectivas configu
 
 Aquí tenéis los enlaces de las ovas de UbuntuServer, una totalmente configurada (red, DNS, etc) y otra sin instalar el servidor DNS, para que podáis seguir la práctica.
 
+**Podéis acceder con el login 'root' y la contraseña 'root'.**
+
 Ubuntu Server 16.04.5 - Totalmente configurada -->
 
 Ubuntu Server 16.04.5 - Seguir Práctica->
