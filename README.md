@@ -122,7 +122,7 @@ Para la zona inversa, es EXACTAMENTE lo mismo que en la zona directa, nos situam
   Para visualizar los tipos de registros y comprobar que hemos puesto bien las IPs/nombres, debemos ir a las zonas maestras de Inversa (192.168.1) y la Directa (lounico.local), ahí aparecerá una casilla llamada "All Record Types (7)" con el que podemos visualizar los tipos de registros realizados.
   
   
-  ### Zona Directa
+### Zona Directa
    ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/DIRECTA REGISTRO.PNG)
      ![Insertar foto que te cagas de lo chula que es](Imagenes/Configuración/DIRECTA REGISTRO2.PNG)
 
